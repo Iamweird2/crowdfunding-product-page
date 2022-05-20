@@ -19,8 +19,6 @@ let twentyFive = document.querySelector(".twenty-five");
 let twentyFiveButton = document.querySelector(".twenty-five-btn");
 let seventyFive = document.querySelector(".seventy-five");
 let seventyFiveButton = document.querySelector(".seventy-five-btn");
-console.log(backers);
-// document.querySelector(".section-2-head").innerText.slice(1) = "2";
 hamburger.addEventListener("click", () => {
   burgerOpen.classList.toggle("burger-open-active");
   burgerClose.classList.toggle("burger-close-active");
@@ -36,19 +34,7 @@ selectionClose.addEventListener("click", () => {
   overlay.classList.remove("overlay-active");
 });
 
-/*
-click a card
-check if borders exist 
-if true: remove old borders
-add new border
-if false: add new border
 
-check if it has pledge-contain
-    if true: 
-        open plege and focus input
-        if false: 
-        dont open pledge and dont focus input
-        */
 
 selectCard.forEach((each) => {
   each.addEventListener("click", () => {
@@ -132,7 +118,6 @@ completeBtn.addEventListener("click", () => {
   overlay.classList.remove("overlay-active");
 });
 
-console.log(parseInt(progressValue) / 1000);
 
 function totalChecks() {
   progressValueUpdate();
