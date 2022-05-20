@@ -544,6 +544,9 @@ input:focus {
     margin: 0 auto 1em;
     padding: 2em 4em;
   }
+  .section-1{
+    padding-top: 0;
+  }
   .mastercraft-head {
     font-size: 1.1em;
   }
